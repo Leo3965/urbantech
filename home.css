@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Barra de navegação */
+.navbar {
+    background-color: #0066CC;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.navbar nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .client-area {
+    background-color: #C0E0FF;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #0066CC;
+}
+
+/* Banner principal */
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./imgs/homem-segurando-tablet.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .banner-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    max-width: 80%;
+    max-height: 100%;
+}
+
+.banner .banner-content h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.banner .banner-content p {
+    font-size: 18px;
+}
