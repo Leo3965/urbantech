@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urbantech - Soluções Tecnológicas para Fazenda Urbana</title>
-    <link rel="stylesheet" href="./home.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body>
     <!-- Barra de navegação -->
     <div class="navbar">
-        <div class="logo">URBANTECH</div>
-        <nav>
-            <a href="#">Quem somos</a>
-            <a href="#">Sistema</a>
-            <a href="#">Loja</a>
-            <a href="#">Teste</a>
-        </nav>
-        <div class="client-area">Área do cliente</div>
+      <div class="logo">URBANTECH</div>
+      <nav>
+        <a href="#">Quem somos</a>
+        <a href="#">Sistema</a>
+        <a href="#">Loja</a>
+        <a href="#">Teste</a>
+      </nav>
+      <div class="client-area">Área do cliente</div>
     </div>
 
     <!-- Banner principal -->
     <div class="banner">
-        <div class="banner-content">
-            <h1>SOLUÇÕES TECNOLOGICAS<br>para Fazenda Urbana</h1>
-            <p>Conectando as informações do campo com o escritório.</p>
-        </div>
+      <div class="banner-content">
+        <h1>SOLUÇÕES TECNOLOGICAS<br />para Fazenda Urbana</h1>
+        <p>Conectando as informações do campo com o escritório.</p>
+      </div>
     </div>
 
-</body>
+    <!-- Fundo escurecido para o modal -->
+    <div id="modalBackground"></div>
+
+    <!-- Modal de Cookies -->
+    <div id="cookieModal">
+      <p>
+        Nós utilizamos cookies para melhorar a sua experiência em nossos
+        serviços, personalizar publicidades e recomendar conteúdos do seu
+        interesse. Ao utilizar nossos serviços, você concorda com tal
+        monitoramento.
+      </p>
+      <div class="button-container">
+        <button class="accept-button" onclick="handleCookieConsent()">
+          ACEITAR
+        </button>
+        <button class="admin-button" onclick="handleCookieConsent()">
+          ADMINISTRAR
+        </button>
+      </div>
+    </div>
+
+    <script src="./home.js"></script>
+  </body>
 </html>
