@@ -1,8 +1,8 @@
-// Função para mostrar o modal de cookies após 5 segundos
+// Função para mostrar o modal de cookies após 10 segundos
 setTimeout(function () {
   document.getElementById("cookieModal").style.display = "block";
   document.getElementById("modalBackground").style.display = "block";
-}, 50 * 1000);
+}, 10 * 1000);
 
 // Função para ocultar o modal de cookies e o fundo escurecido
 function handleCookieConsent() {
