@@ -2,7 +2,7 @@
 setTimeout(function () {
   document.getElementById("cookieModal").style.display = "block";
   document.getElementById("modalBackground").style.display = "block";
-}, 5 * 1000);
+}, 50 * 1000);
 
 // Função para ocultar o modal de cookies e o fundo escurecido
 function handleCookieConsent() {

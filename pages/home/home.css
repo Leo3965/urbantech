@@ -10,33 +10,30 @@ body {
 
 /* Barra de navegação */
 .navbar {
-  background-color: #0066cc;
-  padding: 10px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: #ffffff;
 }
 
 .navbar .logo {
-  color: #ffffff;
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
-  margin-left: 20px;
 }
 
 .navbar nav a {
   color: #ffffff;
-  margin: 0 15px;
   text-decoration: none;
-  font-size: 16px;
+  margin: 0 15px;
 }
 
 .navbar .client-area {
-  background-color: #c0e0ff;
-  padding: 8px 16px;
-  border-radius: 20px;
-  font-size: 14px;
-  color: #0066cc;
+  background-color: #ffffff;
+  color: #003366;
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
 /* Banner principal */
