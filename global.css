@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a:link {
+  color: inherit;
+}
+
+/* link que foi visitado */
+a:visited {
+  color: inherit;
+}
+
+/* mouse over */
+a:hover {
+  color: inherit;
+}
+
+/* link selecionado */
+a:active {
+  color: inherit;
+}
+
+.home-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Barra de navegação */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: #ffffff;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.navbar nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar .client-area {
+  background-color: #ffffff;
+  color: #003366;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
