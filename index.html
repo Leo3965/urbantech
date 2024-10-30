@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Urbantech - Soluções Tecnológicas para Fazenda Urbana</title>
-    <link rel="stylesheet" href="./home.css" />
+    <link rel="stylesheet" href="./pages/home/home.css" />
   </head>
   <body>
     <!-- Barra de navegação -->
@@ -42,12 +42,62 @@
         <button class="accept-button" onclick="handleCookieConsent()">
           ACEITAR
         </button>
-        <button class="admin-button" onclick="handleCookieConsent()">
+        <button class="admin-button" onclick="openAdminModal()">
           ADMINISTRAR
         </button>
       </div>
     </div>
 
-    <script src="./home.js"></script>
+    <!-- Modal para Administrar Cookies -->
+    <div id="adminModal">
+      <h2>Administrar cookies</h2>
+      <div class="cookie-option">
+        <p><strong>Cookies essenciais</strong></p>
+        <p>
+          Esses cookies estão sempre ativos por que são essenciais para fazer
+          com que nossa plataforma funcione corretamente.
+        </p>
+      </div>
+      <div class="cookie-option">
+        <p><strong>Cookies de funcionalidade</strong></p>
+        <p>
+          Nos ajudam a fornecer funcionalidades e personalização, além de
+          lembrar suas configurações.
+        </p>
+        <label class="switch">
+          <input type="checkbox" checked />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="cookie-option">
+        <p><strong>Cookies de desempenho</strong></p>
+        <p>
+          Nos ajudam a entender quem está utilizando nossa plataforma e de onde
+          estão acessando para aprimorar nosso site.
+        </p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="cookie-option">
+        <p><strong>Cookies de direcionabilidade</strong></p>
+        <p>Definidos pelos nossos parceiros de publicidade.</p>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div class="button-container">
+        <button class="accept-button" onclick="acceptAllCookies()">
+          ACEITAR TODOS
+        </button>
+        <button class="reject-button" onclick="rejectAllCookies()">
+          REJEITAR TODOS
+        </button>
+      </div>
+    </div>
+
+    <script src="./pages/home/home.js"></script>
   </body>
 </html>
