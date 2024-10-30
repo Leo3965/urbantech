@@ -10,6 +10,10 @@ body {
   flex-direction: column;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link {
   color: inherit;
 }
