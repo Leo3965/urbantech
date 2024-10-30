@@ -1,0 +1,83 @@
+/* LGPD Content */
+.lgpd-content {
+  padding: 20px;
+  color: #333;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  gap: 20%;
+  width: 100vw;
+  align-items: stretch;
+}
+
+.lgpd-info {
+  background: #f3f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.lgpd-info h2 {
+  font-size: 1.5em;
+  color: #004aad;
+}
+
+.lgpd-sections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.lgpd-box {
+  background: #f3f8ff;
+  padding: 15px;
+  border: 1px solid #d1e0f0;
+  border-radius: 8px;
+  flex: 1 1 200px;
+}
+
+.lgpd-box h3 {
+  font-size: 1.1em;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.lgpd-box ul {
+  list-style-type: none;
+}
+
+.lgpd-box ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.lgpd-box ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Terms */
+.terms {
+  background: #f3f8ff;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.terms h3 {
+  font-size: 1.3em;
+  color: #004aad;
+  margin-bottom: 10px;
+}
+
+.terms p {
+  color: #333;
+}
